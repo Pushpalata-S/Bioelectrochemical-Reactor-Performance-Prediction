@@ -1,0 +1,21 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local editor settings
+.vscode/
+
+# Generated model artifacts
+*.pkl
+*.joblib
+
+# Operating system files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,68 @@
+Row_ID,Study_ID,Wastewater_Type,MFC_Configuration,Anode_Material,Cathode_Material,Initial_COD_mg_L,HRT_h,Actual_power_density_mW_m2,Used_for_training,Predicted_power_density_mW_m2_final_model,Predicted_power_density_mW_m2_out_of_fold,Model,OOF_Baseline (mean)_mW_m2,OOF_Ridge_mW_m2,OOF_ElasticNet_mW_m2,OOF_KNN_mW_m2,OOF_SVR (RBF)_mW_m2,OOF_Gaussian Process_mW_m2,OOF_Random Forest_mW_m2,OOF_Extra Trees_mW_m2,OOF_Gradient Boosting_mW_m2,OOF_XGBoost_mW_m2,OOF_LightGBM_mW_m2
+R001,Sugioka2019,Sewage (raw),Tubular,Graphite felt,Carbon cloth with activated carbon catalyst,450.0,12.0,,False,21.95,,Random Forest,,,,,,,,,,,
+R002,Sugioka2019,Sewage (raw),Tubular,Graphite felt,Carbon cloth with activated carbon catalyst,450.0,12.0,,False,21.95,,Random Forest,,,,,,,,,,,
+R003,Feng2014,Municipal wastewater,,,Carbon cloth with Pt catalyst,330.0,143.0,,False,229.881,,Random Forest,,,,,,,,,,,
+R004,Dong2015,Brewery wastewater,,,Stainless steel (form unspecified) with activated carbon catalyst,820.0,72.0,,False,87.884,,Random Forest,,,,,,,,,,,
+R005,Dong2015,Brewery wastewater,,,Stainless steel (form unspecified) with activated carbon catalyst,3300.0,144.0,,False,62.083,,Random Forest,,,,,,,,,,,
+R006,Hiegemann2016,,,,Carbon cloth with Pt catalyst,120.0,22.0,,False,221.7,,Random Forest,,,,,,,,,,,
+R007,Ye2019a,Synthetic wastewater,Dual-chamber,Graphite felt,Carbon brush,600.0,16.56,,False,85.809,,Random Forest,,,,,,,,,,,
+R008,Ye2020b,Synthetic wastewater,Dual-chamber,Graphite felt,Carbon brush,300.0,,,False,68.862,,Random Forest,,,,,,,,,,,
+R009,Huggins2016,Industrial wastewater,,Biochar,Biochar,1243.0,,,False,108.793,,Random Forest,,,,,,,,,,,
+R010,Sharma2021,Urine,Integrated / hybrid MFC system,Stainless steel mesh,Stainless steel mesh,5628.0,48.0,14.5,True,69.674,176.366,Random Forest,67.958,80.841,81.642,203.294,148.988,78.614,176.366,233.831,138.05,136.678,153.909
+R011,Tao2015,Synthetic wastewater,Single-chamber,Carbon paper,Carbon cloth with Pt catalyst,,,560.0,True,384.131,162.515,Random Forest,59.859,83.916,97.665,303.904,134.978,76.854,162.515,17.336,175.83,123.297,91.9
+R012,Tao2015,Synthetic wastewater,Dual-chamber,Carbon paper,Carbon cloth with Pt catalyst,,,528.0,True,584.621,302.587,Random Forest,59.859,649.928,727.066,225.081,283.005,75.104,302.587,308.702,1234.364,1175.837,859.593
+R013,Ichihashi2012,Swine wastewater,Single-chamber,Carbon felt,Carbon paper with Pt catalyst,60000.0,,1.7,True,5.108,24.653,Random Forest,67.35,45.131,36.605,108.481,47.673,64.466,24.653,20.772,18.631,17.44,17.169
+R014,Ye2019b,Synthetic wastewater,Dual-chamber,Graphite felt,Carbon brush,300.0,16.56,230.17,True,69.523,22.32,Random Forest,65.815,22.13,19.776,16.24,17.508,47.859,22.32,18.506,19.884,16.975,19.299
+R015,Sharma2019,Urine,Dual-chamber,Stainless steel mesh,Stainless steel mesh,11876.23,22.0,240.0,True,163.139,102.444,Random Forest,65.264,64.239,110.538,46.373,34.505,59.514,102.444,212.646,106.663,132.778,215.659
+R016,Wang2019a,Synthetic wastewater,Photosynthetic / algal MFC,Carbon brush,Carbon brush,,12.0,,False,40.011,,Random Forest,,,,,,,,,,,
+R017,Li2021a,Swine wastewater,Photosynthetic / algal MFC,Carbon brush,Carbon cloth with Pt catalyst,7786.0,,,False,51.117,,Random Forest,,,,,,,,,,,
+R018,Yang2018,Domestic wastewater,Photosynthetic / algal MFC,Carbon cloth,Carbon cloth,,288.0,162.93,True,135.801,206.17,Random Forest,56.987,90.526,122.843,107.144,51.204,57.031,206.17,110.526,137.069,178.804,152.681
+R019,DonBabel2021,Synthetic wastewater,Photosynthetic / algal MFC,Carbon cloth,Carbon cloth,1500.0,,16.72,True,47.393,473.769,Random Forest,72.667,251.471,260.784,575.417,282.982,113.013,473.769,419.245,428.753,475.284,399.284
+R020,Yang2019,Kitchen-waste digestate,Stacked,Carbon brush,Carbon cloth,6015.0,,,False,17.478,,Random Forest,,,,,,,,,,,
+R021,Chen2019,Synthetic wastewater,Integrated / hybrid MFC system,Carbon brush,Carbon brush,,,,False,62.026,,Random Forest,,,,,,,,,,,
+R022,Elmaadawy2020,Landfill leachate,Photosynthetic / algal MFC,Carbon felt,Stainless steel mesh with unspecified catalyst,2005.5,,,False,18.159,,Random Forest,,,,,,,,,,,
+R023,Shahid2021b,Synthetic wastewater,"Nutrient-recovery cell (CEM+AEM, multi-chamber)",Carbon brush (heat-treated),Carbon cloth with Pt catalyst,322.0,,1000.0,True,588.391,219.353,Random Forest,51.415,182.036,186.969,273.109,166.945,57.639,219.353,235.991,288.13,250.165,326.227
+R024,Shahid2021b,Synthetic wastewater,"Nutrient-recovery cell (CEM+AEM, multi-chamber)",Carbon brush (APTES-modified),Carbon cloth with Pt catalyst,322.0,,850.0,True,588.391,219.353,Random Forest,51.415,182.036,186.969,273.109,166.945,57.639,219.353,235.991,288.13,250.165,326.227
+R025,Shahid2021b,Synthetic wastewater,"Nutrient-recovery cell (CEM+AEM, multi-chamber)",Stainless steel brush (heat-treated),Carbon cloth with Pt catalyst,322.0,,370.0,True,588.391,219.353,Random Forest,51.415,182.036,186.969,273.109,166.945,57.639,219.353,235.991,288.13,250.165,326.227
+R026,Shahid2021a,Municipal wastewater,"Nutrient-recovery cell (CEM+AEM, multi-chamber)",Carbon brush,Carbon cloth with Pt catalyst,,,800.0,True,321.815,116.99,Random Forest,55.333,92.77,110.155,77.939,75.931,54.095,116.99,74.321,428.292,367.571,198.425
+R027,Shahid2021a,Municipal wastewater,"Nutrient-recovery cell (CEM+AEM, multi-chamber)",Stainless steel brush,Carbon cloth with Pt catalyst,,,400.0,True,416.46,235.306,Random Forest,55.333,156.286,208.788,165.934,159.78,65.933,235.306,289.28,366.116,389.204,290.576
+R028,Chen2017,Domestic wastewater,"Nutrient-recovery cell (CEM+AEM, multi-chamber)",,,331.0,10.0,,False,105.361,,Random Forest,,,,,,,,,,,
+R029,Mansoorian2016,Dairy wastewater,Dual-chamber,Graphite plate,Graphite plate,3620.0,120.0,621.17,True,224.809,56.011,Random Forest,61.633,52.179,84.016,51.383,27.987,59.499,56.011,152.277,56.59,60.615,115.923
+R030,Jiang2019,Synthetic wastewater,"Nutrient-recovery cell (CEM+AEM, multi-chamber)",Carbon brush,Carbon cloth with Pt catalyst,20.0,,472.3,True,329.727,132.486,Random Forest,64.276,301.578,196.003,280.814,96.602,70.519,132.486,72.701,186.158,177.929,265.897
+R031,Doherty2015b,Swine wastewater,Constructed wetland-MFC,Granular graphite,Granular graphite,,24.0,,False,19.581,,Random Forest,,,,,,,,,,,
+R032,Doherty2015a,Swine wastewater,Constructed wetland-MFC,Granular graphite with graphite rod,Granular graphite with graphite rod,583.0,24.0,,False,18.782,,Random Forest,,,,,,,,,,,
+R033,Saeed2022,Municipal wastewater,Constructed wetland-MFC,Aluminium plate,Aluminium plate,,,38.6,True,25.915,21.573,Random Forest,63.665,25.717,20.555,51.365,36.356,46.424,21.573,8.297,15.133,19.373,10.07
+R034,Ge2020,Synthetic wastewater,Constructed wetland-MFC,Carbon felt,Carbon felt,200.0,6.0,2.67,True,5.089,11.993,Random Forest,64.468,17.725,15.081,46.043,69.285,64.608,11.993,6.463,13.549,5.212,6.5
+R035,Wang2019c,Synthetic wastewater,Constructed wetland-MFC,Carbon brush,Graphite plate,,36.0,,False,17.602,,Random Forest,,,,,,,,,,,
+R036,Oon2015,Synthetic wastewater,Constructed wetland-MFC,Carbon felt,Carbon felt,314.8,24.0,6.12,True,6.309,12.947,Random Forest,60.54,12.658,9.61,25.034,13.118,52.077,12.947,4.44,15.643,9.538,5.692
+R037,Tao2022,Synthetic wastewater,Constructed wetland-MFC,Graphite plate,Graphite plate,58.0,48.0,1.92,True,11.686,58.443,Random Forest,71.278,64.029,60.398,88.84,35.03,57.567,58.443,50.083,32.738,31.189,33.036
+R038,Kim2015,Swine wastewater,Integrated / hybrid MFC system,Carbon felt,Carbon cloth with Pt catalyst,73828.0,,33.0,True,41.823,101.476,Random Forest,66.287,74.991,65.593,47.887,12.2,46.522,101.476,132.077,30.874,51.358,61.191
+R039,Mohammed2018,Slaughterhouse wastewater,Integrated / hybrid MFC system,Graphite rod,Granular graphite,,,162.55,True,109.994,62.568,Random Forest,64.479,73.14,66.362,71.016,75.738,63.958,62.568,20.317,95.942,80.889,64.625
+R040,Xiao2012,Municipal wastewater,Integrated / hybrid MFC system,Carbon brush,Carbon cloth with Pt catalyst,266.7,12.5,,False,159.158,,Random Forest,,,,,,,,,,,
+R041,Gupta2021,Synthetic wastewater,Constructed wetland-MFC,Granular graphite,Carbon felt,1505.61,120.0,,False,23.669,,Random Forest,,,,,,,,,,,
+R042,Malaeb2013,Domestic wastewater,Integrated / hybrid MFC system,Graphite brush,MWCNT/UF membrane (no Pt),1080.0,,380.0,True,271.856,30.669,Random Forest,57.715,38.396,28.511,133.62,34.323,58.012,30.669,22.993,28.367,33.176,17.483
+R043,Malaeb2013,Domestic wastewater,Integrated / hybrid MFC system,Graphite brush,MWCNT/UF membrane with Pt catalyst,1080.0,,820.0,True,271.856,30.669,Random Forest,57.715,38.396,28.511,133.62,34.323,58.012,30.669,22.993,28.367,33.176,17.483
+R044,Corbella2015,Domestic wastewater,Constructed wetland-MFC,Graphite rods wrapped in stainless steel,Graphite rods wrapped in stainless steel,323.0,62.4,36.0,True,32.315,39.793,Random Forest,73.082,46.584,32.607,36.758,16.277,58.954,39.793,30.616,23.619,32.17,20.095
+R045,S5-ref10,Domestic wastewater,,Carbon cloth + graphite rod,Carbon cloth with Pt catalyst,,,,False,231.022,,Random Forest,,,,,,,,,,,
+R046,S5-ref11,Domestic wastewater,Single-chamber,Carbon cloth + graphite rod,Carbon cloth with Pt catalyst,,,229.0,True,291.727,268.534,Random Forest,65.929,255.569,278.483,256.481,457.785,187.136,268.534,402.753,520.943,644.421,602.281
+R047,S5-ref12,Domestic wastewater,Single-chamber,Carbon cloth + graphite rod,Carbon cloth,,,1200.0,True,423.022,112.853,Random Forest,61.606,75.384,93.399,217.643,92.643,77.536,112.853,86.71,101.338,86.108,107.247
+R048,S5-ref13,Domestic wastewater,Single-chamber,Graphite felt,Carbon cloth with Pt catalyst,,,149.0,True,103.081,149.436,Random Forest,65.712,138.491,126.569,82.43,120.155,93.434,149.436,260.757,113.517,133.603,126.471
+R049,S5-ref14,Swine wastewater,Single-chamber,Graphite felt,Carbon cloth with MnO2 catalyst,,,3.226,True,5.328,13.429,Random Forest,66.557,16.323,15.591,4.744,16.301,14.442,13.429,7.103,3.8,3.558,5.162
+R050,S5-ref15,Malt wastewater,Single-chamber,Graphite felt,Carbon cloth with MnO2 catalyst,,,0.097,True,3.294,63.165,Random Forest,73.085,95.913,97.367,72.674,63.419,68.387,63.165,32.659,101.741,100.592,101.271
+R051,S5-ref16,Domestic wastewater,Stacked,Carbon brush,Carbon cloth with Pt and activated carbon catalyst,,,4.71,True,13.348,18.927,Random Forest,65.651,18.87,19.832,13.611,14.179,17.409,18.927,18.602,16.523,16.369,15.634
+R052,S5-ref17,Domestic wastewater,Single-chamber,Carbon brush,"Carbon cloth with activated carbon catalyst (± Pt, mixed conditions)",,,14.61,True,66.415,97.454,Random Forest,61.717,52.859,67.389,772.702,192.042,673.715,97.454,206.493,250.571,243.101,238.598
+R053,S5-ref18,Domestic wastewater,Stacked,Carbon brush,Carbon cloth with Pt catalyst,,,14.5,True,26.985,70.133,Random Forest,69.27,91.29,108.803,22.244,54.856,49.667,70.133,68.609,36.799,54.097,66.868
+R054,S5-ref19,Malt wastewater,Stacked,Carbon brush,Stainless steel mesh with activated carbon catalyst,,,159.0,True,8.017,4.927,Random Forest,64.155,3.088,4.321,8.092,2.815,11.435,4.927,2.394,1.961,1.65,1.826
+R055,S5-ref20,Domestic wastewater,Stacked,Carbon brush,Carbon cloth with activated carbon catalyst,,,17.25,True,13.348,17.117,Random Forest,65.52,25.279,24.277,6.55,8.871,12.264,17.117,9.762,13.158,15.193,16.067
+R056,S5-ref21,Domestic wastewater,Single-chamber,Carbon brush,Stainless steel mesh with activated carbon catalyst,,,1100.0,True,66.415,9.809,Random Forest,57.694,21.056,18.618,15.81,20.568,16.899,9.809,5.281,17.264,16.497,17.961
+R057,S5-ref22,Domestic wastewater,Stacked,Carbon brush,Carbon cloth with activated carbon catalyst,,,10.74,True,13.348,18.27,Random Forest,70.642,23.296,20.621,7.916,11.486,17.2,18.27,12.992,12.409,13.555,12.955
+R058,S5-ref23,Malt wastewater,Stacked,Carbon brush,Carbon cloth,,,1.61,True,8.473,90.357,Random Forest,73.846,66.325,60.993,47.409,357.246,117.883,90.357,126.327,117.69,144.581,101.243
+R059,S5-ref24,Domestic wastewater,Stacked,Carbon brush,Carbon cloth with Pt and activated carbon catalyst,,,,False,13.348,,Random Forest,,,,,,,,,,,
+R060,S5-ref26,Domestic wastewater,Stacked,Carbon cloth,Carbon cloth with Pt catalyst,,,,False,29.596,,Random Forest,,,,,,,,,,,
+R061,S5-ref27,Domestic wastewater,Stacked,Carbon brush,Carbon cloth with Pt and activated carbon catalyst,,,,False,13.348,,Random Forest,,,,,,,,,,,
+R062,S5-ref28,Domestic wastewater,Stacked,Granular carbon with titanium core,Carbon cloth,,,,False,54.161,,Random Forest,,,,,,,,,,,
+R063,S5-ref30,Municipal wastewater,Stacked,Activated carbon,Activated carbon,,,7.58,True,21.943,33.502,Random Forest,64.448,33.412,28.113,45.141,43.893,60.323,33.502,24.008,21.014,16.255,13.252
+R064,S5-ref31,Vegetable-oil industry wastewater,Dual-chamber,Carbon cloth,Carbon cloth,,,6119.0,True,614.013,166.221,Random Forest,58.702,126.832,192.219,151.803,94.922,70.403,166.221,196.882,179.34,185.66,224.484
+R065,S2-ref98,Chemical-industry wastewater,,,,,,,False,70.965,,Random Forest,,,,,,,,,,,
+R066,S2-ref97,Swine wastewater,Dual-chamber,,,,,45.0,True,99.665,135.284,Random Forest,77.61,238.642,285.055,81.627,177.572,110.955,135.284,218.264,479.624,620.427,382.777
+R067,Park2017,Domestic wastewater,,,,,2.5,,False,75.298,,Random Forest,,,,,,,,,,,
